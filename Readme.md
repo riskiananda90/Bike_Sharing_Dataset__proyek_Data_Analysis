@@ -20,8 +20,8 @@ pip install -r requirements.txt
 
 ### Shell/Terminal (Windows, macOS, Linux)
 ```bash
-mkdir bike_sharing_dashboard
-cd bike_sharing_dashboard
+mkdir Bike_Sharing_Dataset__proyek_Data_Analysis
+cd Bike_Sharing_Dataset__proyek_Data_Analysis
 python -m venv venv  # Membuat virtual environment
 source venv/bin/activate  # Untuk macOS/Linux
 venv\Scripts\activate  # Untuk Windows
@@ -30,8 +30,8 @@ pip install -r requirements.txt
 
 ### Pipenv (Windows, macOS, Linux)
 ```bash
-mkdir bike_sharing_dashboard
-cd bike_sharing_dashboard
+mkdir Bike_Sharing_Dataset__proyek_Data_Analysis
+cd Bike_Sharing_Dataset__proyek_Data_Analysis
 pipenv install
 pipenv shell
 pip install -r requirements.txt
@@ -55,7 +55,7 @@ streamlit run dashboard/dashboard.py
 ## 📁 Struktur Proyek
 
 ```
-submission/
+Bike_Sharing_Dataset__proyek_Data_Analysis/
 ├── dashboard/
 │   ├── main_data.csv
 │   └── dashboard.py
